@@ -69,7 +69,8 @@ h2 {
     align-items: center;
     display: flex;
     font-size: 18px;
-    height: 80vh;
+    padding: 100px;
+    height: 800px;
     justify-content: center;
     overflow: hidden;
     position: relative;
@@ -105,7 +106,7 @@ h2 {
 }
 .header-index-after {
     background: #00a05a;
-    height: 12rem;
+    height: 300px;
     width: 100%;
     position: absolute;
     z-index: 0;
@@ -170,7 +171,7 @@ h2 {
     font-size: 14px;
 }
 .navbar-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(23,162,184, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,160,90, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     color: #00a05a;
 }
 .header-logo img {
@@ -310,7 +311,7 @@ footer {
     height: 100px;
     display: block;
     box-sizing: border-box;
-    position: relative;
+    position: bottom;
     text-align: center;
     padding-top: 20px;
 }
@@ -404,7 +405,14 @@ footer {
             url('../img/cascos-landscape.jpg');
         background-repeat: no-repeat;
         background-position: bottom;
-        background-size: auto;
+        background-size: 100%;
+    }
+    .header-index-after {
+        height: 12rem;
+        width: 100%;
+        position: absolute;
+        z-index: 0;
+        text-align: center;
     }
     .index-figure-caption {
         font-size: 16px;
